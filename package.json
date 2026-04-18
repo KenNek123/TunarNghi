@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vite",
     "postinstall": "node scripts/copy-mediapipe-assets.mjs",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
